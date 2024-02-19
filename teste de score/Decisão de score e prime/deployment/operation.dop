@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Decisão de score e prime">
+  <name>Decisão-de-score-e-prime</name>
+  <uuid>71026511-7304-4be3-ae56-e419cb853c03</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#a4c3537a-c131-4cb8-9434-c598d68c9680"/>
+  <targetRuleProject href="../../Decis%C3%A3o%20de%20score%20e%20prime#9041c891-d605-4490-bd6e-e0405208d538"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["Decis\u00E3o-de-score-e-prime"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

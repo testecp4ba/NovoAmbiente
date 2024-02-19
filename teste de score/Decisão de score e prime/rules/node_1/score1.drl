@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>score1</name>
+  <uuid>bf3e07f5-c69d-46ab-9cae-daab107941c1</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	'ScoreDef' is less than 5000
+then
+	set decision to "Reprovado"; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

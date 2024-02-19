@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>score rule</name>
+  <uuid>e36050f6-f004-4b2a-bac9-10ff2487b10f</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	'MediaFaturas' is more than 5000 
+then
+	set decision to "Aprovado"; 
+]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
