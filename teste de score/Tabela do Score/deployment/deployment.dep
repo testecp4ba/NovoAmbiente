@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="cp4admin.teste1.teste_de_score:definindoScore" ruleAppVersion="LATEST-SNAPSHOT" packageName="cp4admin.teste1.teste_de_score.score" managingXom="true">
-  <name>DefinindoScore</name>
-  <uuid>4e5a3710-7d69-4f74-8903-b9d7499e13e9</uuid>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="cp4admin.teste1.teste_de_score:tabelaDoScore" ruleAppVersion="LATEST-SNAPSHOT" packageName="cp4admin.teste1.teste_de_score.tabeladoscore" managingXom="true">
+  <name>Tabela-do-Score</name>
+  <uuid>1aed1eb1-beed-4c1e-8101-5dddc391ceee</uuid>
   <locales>en_US</locales>
   <operations operationName="operation">
-    <operation href="operation.dop#3299c91b-d66b-4f6e-beb8-87d5e60ee56b"/>
+    <operation href="operation.dop#dfa55572-402f-41f7-93e5-d4f2c1918ef4"/>
     <properties key="ruleset.version">
       <value><![CDATA[1.0]]></value>
     </properties>

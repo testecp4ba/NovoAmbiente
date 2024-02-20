@@ -8,7 +8,7 @@
     </parent>
 
     <groupId>cp4admin.teste1.teste_de_score</groupId>
-    <artifactId>desconto</artifactId>
+    <artifactId>tabelaDoScore</artifactId>
     <version>LATEST-SNAPSHOT</version>
 
     <build>
@@ -26,10 +26,10 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>Desconto</name>
+                            <name>Tabela-do-Score</name>
                         </deployment>
                     </deployments>
-                <packageName>cp4admin.teste1.teste_de_score.desconto</packageName>
+                <packageName>cp4admin.teste1.teste_de_score.tabeladoscore</packageName>
                 </configuration>
             </plugin>
         </plugins>
@@ -39,11 +39,6 @@
         <dependency>
             <groupId>cp4admin.teste1.teste_de_score</groupId>
             <artifactId>testeModelo</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>cp4admin.teste1.teste_de_score</groupId>
-            <artifactId>decis0x00e3oDeScoreEPrime</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>

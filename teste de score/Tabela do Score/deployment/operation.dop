@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Tabela do Score">
+  <name>Tabela-do-Score</name>
+  <uuid>dfa55572-402f-41f7-93e5-d4f2c1918ef4</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#fae5b907-b7f0-4c58-b2ef-ab0c4d467ef5"/>
+  <targetRuleProject href="../../Tabela%20do%20Score#fb05b0cd-0cbf-4dd2-b248-32bd163c554b"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["Tabela-do-Score"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

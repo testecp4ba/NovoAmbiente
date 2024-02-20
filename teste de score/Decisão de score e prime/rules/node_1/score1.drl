@@ -4,7 +4,7 @@
   <uuid>bf3e07f5-c69d-46ab-9cae-daab107941c1</uuid>
   <locale>en_US</locale>
   <definition><![CDATA[if
-	'ScoreDef' is less than 5000
+	ValorScore is less than 5000
 then
 	set decision to "Reprovado"; ]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

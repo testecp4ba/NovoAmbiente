@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Desconto">
-  <name>Desconto</name>
-  <uuid>54046a7c-40bc-4a87-9854-3493396eb8c8</uuid>
-  <decisionModel href="../rules/decisionModel.dmo#fffb6d0d-d3ba-42c5-b283-4d600c3c3714"/>
-  <targetRuleProject href="../../Desconto#547aa941-dad2-41c0-800a-4cb14100f00f"/>
-</com.ibm.rules.studio.model.decisionservice:Operation>

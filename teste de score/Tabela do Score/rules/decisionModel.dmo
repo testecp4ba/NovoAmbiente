@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.ibm.rules.studio.model.decisionmodel:DecisionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore">
   <name>decisionModel</name>
-  <uuid>cfa6769a-0c9f-4961-85fc-ecc514fcc4f0</uuid>
+  <uuid>fae5b907-b7f0-4c58-b2ef-ab0c4d467ef5</uuid>
   <locale>en_US</locale>
   <definition><definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="decisions" name="diagram" namespace="">
     <extensionElements>
         <locale xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" id="en_US"/>
     </extensionElements>
-    <inputData id="node_0" name="MediaFaturas">
+    <inputData id="node_0" name="FaturasRPA">
         <extensionElements>
             <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
-                <output bomType="java.lang.Double" collection="false" name="MediaFaturas"/>
+                <output bomType="java.lang.Double" collection="false" name="FaturasRPA"/>
             </initialization>
         </extensionElements>
-        <variable id="node_0_ii" name="MediaFaturas" typeRef="java.lang.Double"/>
+        <variable id="node_0_ii" name="FaturasRPA" typeRef="java.lang.Double"/>
     </inputData>
-    <decision id="node_1" name="Score">
+    <decision id="node_1" name="Tabela de Score">
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
-                <input bomType="java.lang.Double" collection="false" name="MediaFaturas"/>
-                <output bomType="java.lang.String" collection="false" name="Score"/>
-                <rule defaultRule="false" href="node_1/score%20rule.drl" kind="BusinessRule" name="score rule"/>
-                <rule defaultRule="true" href="node_1/output-default-setting.drl" kind="BusinessRule" name="output-default-setting"/>
+                <input bomType="java.lang.Double" collection="false" name="FaturasRPA"/>
+                <output bomType="java.lang.String" collection="false" name="Tabela de Score"/>
+                <rule defaultRule="false" href="node_1/TabelaScore.dmt" kind="DecisionTable" name="TabelaScore"/>
             </ruleset>
         </extensionElements>
-        <variable id="node_1_ii" name="Score" typeRef="java.lang.String"/>
+        <variable id="node_1_ii" name="Tabela de Score" typeRef="java.lang.String"/>
         <informationRequirement>
             <requiredInput href="#node_0"/>
         </informationRequirement>

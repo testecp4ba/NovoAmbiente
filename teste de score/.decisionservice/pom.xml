@@ -18,12 +18,7 @@
         </dependency>
         <dependency>
             <groupId>cp4admin.teste1.teste_de_score</groupId>
-            <artifactId>definindoScore</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>cp4admin.teste1.teste_de_score</groupId>
-            <artifactId>desconto</artifactId>
+            <artifactId>tabelaDoScore</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -99,6 +94,11 @@
 
 
 
+
+
+
+
+
 <build>
         <resources>
             <resource>
@@ -134,16 +134,7 @@
                                 </artifactItem>
                                 <artifactItem>
                                     <groupId>cp4admin.teste1.teste_de_score</groupId>
-                                    <artifactId>definindoScore</artifactId>
-                                    <version>LATEST-SNAPSHOT</version>
-                                    <type>jar</type>
-                                    <overWrite>false</overWrite>
-                                    <includes>**/*.class</includes>
-                                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>cp4admin.teste1.teste_de_score</groupId>
-                                    <artifactId>desconto</artifactId>
+                                    <artifactId>tabelaDoScore</artifactId>
                                     <version>LATEST-SNAPSHOT</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
