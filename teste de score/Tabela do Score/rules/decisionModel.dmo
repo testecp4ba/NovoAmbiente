@@ -15,15 +15,15 @@
         </extensionElements>
         <variable id="node_0_ii" name="FaturasRPA" typeRef="java.lang.Double"/>
     </inputData>
-    <decision id="node_1" name="Tabela de Score">
+    <decision id="node_1" name="ResultadoTabela">
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="java.lang.Double" collection="false" name="FaturasRPA"/>
-                <output bomType="java.lang.String" collection="false" name="Tabela de Score"/>
+                <output bomType="java.lang.String" collection="false" name="ResultadoTabela"/>
                 <rule defaultRule="false" href="node_1/TabelaScore.dmt" kind="DecisionTable" name="TabelaScore"/>
             </ruleset>
         </extensionElements>
-        <variable id="node_1_ii" name="Tabela de Score" typeRef="java.lang.String"/>
+        <variable id="node_1_ii" name="ResultadoTabela" typeRef="java.lang.String"/>
         <informationRequirement>
             <requiredInput href="#node_0"/>
         </informationRequirement>

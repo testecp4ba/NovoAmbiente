@@ -13,7 +13,7 @@
             <ConditionDefinitions>
                 <ConditionDefinition Id="C0">
                     <ExpressionDefinition>
-                        <Text><![CDATA[FaturasRPA is at least <min> and less than <max>]]></Text>
+                        <Text><![CDATA['FaturasRPA' is at least <min> and less than <max>]]></Text>
                     </ExpressionDefinition>
                 </ConditionDefinition>
             </ConditionDefinitions>
