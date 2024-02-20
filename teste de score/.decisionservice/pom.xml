@@ -13,12 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>cp4admin.teste1.teste_de_score</groupId>
-            <artifactId>decis0x00e3oDeScoreEPrime</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>cp4admin.teste1.teste_de_score</groupId>
-            <artifactId>tabelaDoScore</artifactId>
+            <artifactId>analiseRenegocia0x00e70x00e3o</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -99,6 +94,9 @@
 
 
 
+
+
+
 <build>
         <resources>
             <resource>
@@ -125,16 +123,7 @@
                             <artifactItems>
                                 <artifactItem>
                                     <groupId>cp4admin.teste1.teste_de_score</groupId>
-                                    <artifactId>decis0x00e3oDeScoreEPrime</artifactId>
-                                    <version>LATEST-SNAPSHOT</version>
-                                    <type>jar</type>
-                                    <overWrite>false</overWrite>
-                                    <includes>**/*.class</includes>
-                                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>cp4admin.teste1.teste_de_score</groupId>
-                                    <artifactId>tabelaDoScore</artifactId>
+                                    <artifactId>analiseRenegocia0x00e70x00e3o</artifactId>
                                     <version>LATEST-SNAPSHOT</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="cp4admin.teste1.teste_de_score:decis0x00e3oDeScoreEPrime" ruleAppVersion="LATEST-SNAPSHOT" packageName="cp4admin.teste1.teste_de_score.definindoprime" managingXom="true">
-  <name>Decisão-de-score-e-prime</name>
-  <uuid>0e5751ca-ed69-4947-a2a2-f26508b58206</uuid>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="cp4admin.teste1.teste_de_score:analiseRenegocia0x00e70x00e3o" ruleAppVersion="LATEST-SNAPSHOT" packageName="cp4admin.teste1.teste_de_score.tabeladoscore" managingXom="true">
+  <name>AnaliseRenegociação</name>
+  <uuid>1aed1eb1-beed-4c1e-8101-5dddc391ceee</uuid>
   <locales>en_US</locales>
   <operations operationName="operation">
-    <operation href="operation.dop#71026511-7304-4be3-ae56-e419cb853c03"/>
+    <operation href="operation.dop#dfa55572-402f-41f7-93e5-d4f2c1918ef4"/>
     <properties key="ruleset.version">
       <value><![CDATA[1.0]]></value>
     </properties>

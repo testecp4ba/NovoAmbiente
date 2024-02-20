@@ -63,10 +63,9 @@
         </dependencies>
     </dependencyManagement>
     <modules>
-        <module>Tabela do Score</module>
-        <module>Decisão de score e prime</module>
         <module>TesteModelo</module>
         <module>.decisionservice</module>
+        <module>AnaliseRenegociação</module>
     </modules>
 
     <build>

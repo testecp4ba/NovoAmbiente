@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Tabela do Score">
-  <name>Tabela-do-Score</name>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="AnaliseRenegociação">
+  <name>AnaliseRenegociação</name>
   <uuid>dfa55572-402f-41f7-93e5-d4f2c1918ef4</uuid>
   <decisionModel href="../rules/decisionModel.dmo#fae5b907-b7f0-4c58-b2ef-ab0c4d467ef5"/>
-  <targetRuleProject href="../../Tabela%20do%20Score#fb05b0cd-0cbf-4dd2-b248-32bd163c554b"/>
+  <targetRuleProject href="../../AnaliseRenegocia%C3%A7%C3%A3o#fb05b0cd-0cbf-4dd2-b248-32bd163c554b"/>
   <tags key="operationDescription">
     <value><![CDATA[""]]></value>
   </tags>

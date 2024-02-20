@@ -8,7 +8,7 @@
     </parent>
 
     <groupId>cp4admin.teste1.teste_de_score</groupId>
-    <artifactId>tabelaDoScore</artifactId>
+    <artifactId>analiseRenegocia0x00e70x00e3o</artifactId>
     <version>LATEST-SNAPSHOT</version>
 
     <build>
@@ -26,7 +26,7 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>Tabela-do-Score</name>
+                            <name>AnaliseRenegociação</name>
                         </deployment>
                     </deployments>
                 <packageName>cp4admin.teste1.teste_de_score.tabeladoscore</packageName>

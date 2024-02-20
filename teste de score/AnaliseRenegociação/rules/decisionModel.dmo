@@ -28,6 +28,34 @@
             <requiredInput href="#node_0"/>
         </informationRequirement>
     </decision>
+    <decision id="node_2" name="Resultado do Pedido">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="java.lang.String" collection="false" name="ResultadoTabela"/>
+                <input bomType="java.lang.Boolean" collection="false" name="Prime"/>
+                <output bomType="java.lang.String" collection="false" name="Resultado do Pedido"/>
+                <rule defaultRule="false" href="node_2/1.drl" kind="BusinessRule" name="1"/>
+                <rule defaultRule="false" href="node_2/2.drl" kind="BusinessRule" name="2"/>
+                <rule defaultRule="true" href="node_2/output-default-setting.drl" kind="BusinessRule" name="output-default-setting"/>
+                <rule defaultRule="false" href="node_2/Reprovado,%20mas%20é%20Prime.drl" kind="BusinessRule" name="Reprovado, mas é Prime"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_2_ii" name="Resultado do Pedido" typeRef="java.lang.String"/>
+        <informationRequirement>
+            <requiredInput href="#node_1"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_3"/>
+        </informationRequirement>
+    </decision>
+    <inputData id="node_3" name="Prime">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Boolean" collection="false" name="Prime"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_3_ii" name="Prime" typeRef="java.lang.Boolean"/>
+    </inputData>
 </definitions>
 </definition>
 </com.ibm.rules.studio.model.decisionmodel:DecisionModel>
