@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Cenario400</name>
+  <uuid>b480a12c-48fc-4181-932d-4a01975a8342</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se
+	ResultadoTabela é "400" 
+então
+	atribuir à decisão o valor "Reprovado" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
