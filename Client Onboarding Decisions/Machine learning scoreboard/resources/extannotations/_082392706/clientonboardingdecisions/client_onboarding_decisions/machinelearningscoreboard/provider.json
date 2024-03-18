@@ -1,0 +1,13 @@
+{
+  "name" : "disconnectedProvider",
+  "type" : "OPS",
+  "description" : null,
+  "version" : "V1",
+  "providerAdditionalInfo" : {
+    "providerType" : "OPS",
+    "mlUrl" : ""
+  },
+  "authInfo" : {
+    "authType" : "NONE"
+  }
+}

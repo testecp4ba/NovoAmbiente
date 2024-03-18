@@ -4,8 +4,8 @@
   <uuid>a0ea112b-3131-471c-94f2-2a805eaa1503</uuid>
   <locale>pt_BR</locale>
   <definition><![CDATA[se
-	ResultadoTabela é "400"
+	Conversao_Media_Score é "200"
 	e Prime 
 então
-	atribuir à decisão o valor "Gerente de renegociação precisa aprovar" ;]]></definition>
+	atribuir à decisão o valor verdadeiro ;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
