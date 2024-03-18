@@ -20,7 +20,7 @@
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="java.lang.Double" collection="false" name="Media_RPA"/>
                 <output bomType="java.lang.String" collection="false" name="Conversao_Media_Score"/>
-                <rule defaultRule="false" href="node_1/TabelaScore.dmt" kind="DecisionTable" name="TabelaScore"/>
+                <rule defaultRule="false" href="node_1/Media_para_Score.dmt" kind="DecisionTable" name="Media_para_Score"/>
             </ruleset>
         </extensionElements>
         <variable id="node_1_ii" name="Conversao_Media_Score" typeRef="java.lang.String"/>
